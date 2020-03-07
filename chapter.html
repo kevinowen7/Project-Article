@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Article - Malviz</title>
+    <title>Chapter - Malviz</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
@@ -61,14 +61,14 @@
                 </div>
               </a>
               <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
-                <a class="dropdown-item" href="article.html">
-                  <i class="mdi mdi-newspaper" style="color:#b66dff"></i> Article </a>
-                <a class="dropdown-item" href="list_artcle.html">
-                  <i class="mdi mdi-format-list-bulleted" style="color:#b66dff"></i> List Article </a>    
+                <a class="dropdown-item" href="lesson.html">
+                  <i class="mdi mdi-newspaper" style="color:#b66dff"></i> Lesson </a>
+                <a class="dropdown-item" href="list_lessn.html">
+                  <i class="mdi mdi-format-list-bulleted" style="color:#b66dff"></i> List of Lesson </a>    
                 <a class="dropdown-item" href="chapter.html">
                   <i class="mdi mdi-note " style="color:#b66dff"></i> Chapter </a>
                 <a class="dropdown-item" href="list_chaptr.html">
-                  <i class="mdi mdi-format-list-bulleted" style="color:#b66dff"></i> List Chapter </a>
+                  <i class="mdi mdi-format-list-bulleted" style="color:#b66dff"></i> List of Chapter </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">
                   <i id="signout" class="mdi mdi-logout mr-2 text-primary"></i> Signout </a>
@@ -106,14 +106,14 @@
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="article.html">
-                <span class="menu-title">Article</span>
+              <a class="nav-link" href="lesson.html">
+                <span class="menu-title">Lesson</span>
                 <i class="mdi mdi-newspaper menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="list_artcle.html">
-                <span class="menu-title">List Article</span>
+              <a class="nav-link" href="list_lessn.html">
+                <span class="menu-title">List of Lesson</span>
                 <i class="mdi mdi-format-list-bulleted menu-icon"></i>
               </a>
             </li>
@@ -125,7 +125,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="list_chaptr.html">
-                <span class="menu-title">List Chapter</span>
+                <span class="menu-title">List of Chapter</span>
                 <i class="mdi mdi-format-list-bulleted menu-icon"></i>
               </a>
             </li>
@@ -151,7 +151,7 @@
                     <!-- Form Add Chapter -->
                     <form class="forms-sample" action="javascript:(0)">
                       <div id="articleForm" class="form-group row">
-                        <label class="col-sm-3 col-form-label">Choose Article</label>
+                        <label class="col-sm-3 col-form-label">Choose Lesson</label>
                         <div class="col-sm-3">
                           <select id="article" class="form-control">
                             <option value="">Choose...</option>
@@ -164,16 +164,12 @@
                           <input required type="text" class="form-control" id="title" name="title" placeholder="Title">
                         </div>
                         <div class="form-group">
-                          <label for="content">Content 1 </label>
-                          <textarea required type="text" class="form-control" id="content1" name="content1" placeholder="Content 1" rows="20" cols="50"></textarea>
-                        </div>
-                        <div class="form-group">
-                          <label for="content">Content 2 </label>
-                          <textarea required type="text" class="form-control" id="content2" name="content2" placeholder="Content 2" rows="20" cols="50"></textarea>
-                        </div>
-                        <div class="form-group">
                           <label for="video">URL Video</label>
                           <input required type="text" class="form-control" id="video" name="video" placeholder="Video">
+                        </div>
+                        <div class="form-group">
+                          <label for="content">Content 1 </label>
+                          <textarea required type="text" class="form-control" id="content1" name="content1" placeholder="Content 1" rows="20" cols="50"></textarea>
                         </div>
                         <div id="attachment" class="form-group row">
                           <label for="fileButton" class="control-label col-lg-2">Attachment</label>
@@ -188,6 +184,10 @@
                             <p id="fileNameP1" name="fileNameP1" ><p>
                             <a id="uploadPic" href="javascript:void(0)" class="btn btn-primary btn-xs" onCLick="uploadP()" style="display:none">Upload</a>
                           </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="content">Content 2 </label>
+                          <textarea required type="text" class="form-control" id="content2" name="content2" placeholder="Content 2" rows="20" cols="50"></textarea>
                         </div>
                         <div class="form-group row">
                           <div class="col-sm-4">

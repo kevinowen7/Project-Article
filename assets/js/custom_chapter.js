@@ -71,7 +71,7 @@ $("#add_chapter").click(function() {
 
             data = {
                 "title":$("#title").val(),
-                "fisrt_content":$("#content1").val(),
+                "first_content":$("#content1").val(),
                 "second_content":$("#content2").val(),
                 "video_url":$("#video").val(),
                 "image_url":url
